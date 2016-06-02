@@ -1,0 +1,33 @@
+{
+    "name": "nastasia/php7-way",
+    "description": "To play with PHP7",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aydin Hassan",
+            "email": "aydin@hotmail.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "php-school/php-workshop": "^0.4",
+        "php-school/workshop-installer": "^0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpSchool\\Php7Way\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpSchool\\Php7WayTest\\": "test"
+        }
+    },
+    "bin": [
+        "bin/php7way"
+    ]
+}
