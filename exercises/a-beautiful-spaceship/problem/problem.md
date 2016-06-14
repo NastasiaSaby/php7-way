@@ -4,6 +4,21 @@ You must write this program with the array_filter function.
 ----------------------------------------------------------------------
 ## HINTS
 
+Faire 2 fonctions qui font un echo du 1er argument renvoye.
+Le 1er argument renvoye sera un number et le deuxieme un string.
+
+On veut un renvoi ainsi :
+Fonction non stricte avec 1er argument : Number
+Fonction non stricte avec 2eme argument : String
+Fonction stricte avec 1er argument : Number
+
+erreur
+
+3 fonctions :
+nonStrictFunction
+strictFunction
+errorFunction
+
 You can know if a number is an even number by divide it by 2 as following :
 ```php
 if ($number %2 == 0) {

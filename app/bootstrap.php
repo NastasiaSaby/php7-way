@@ -20,12 +20,29 @@ switch (true) {
 }
 
 use PhpSchool\PhpWorkshop\Application;
-use PhpSchool\Php7Way\Exercise\ScalarTypeDeclarations;
+use PhpSchool\Php7Way\Exercise\TypeYourArguments;
+use PhpSchool\Php7Way\Exercise\CastYourArguments;
+use PhpSchool\Php7Way\Exercise\TypeYourOutput;
+use PhpSchool\Php7Way\Exercise\NullItsNull;
+use PhpSchool\Php7Way\Exercise\ABeautifulSpaceship;
+use PhpSchool\Php7Way\Exercise\DivideIt;
+use PhpSchool\Php7Way\Exercise\NewGeneration;
+use PhpSchool\Php7Way\Exercise\NewGenerationBack;
+use PhpSchool\Php7Way\Exercise\NewGenerationTransfer;
+use PhpSchool\Php7Way\Exercise\MakeConstantYourArrays;
 
 $app = new Application('PHP7 way', __DIR__ . '/config.php');
 
-$app->addExercise(ScalarTypeDeclarations::class);
-//$app->addExercise(...);
+$app->addExercise(TypeYourArguments::class);
+$app->addExercise(CastYourArguments::class);
+$app->addExercise(TypeYourOutput::class);
+$app->addExercise(NullItsNull::class);
+$app->addExercise(ABeautifulSpaceship::class);
+$app->addExercise(DivideIt::class);
+$app->addExercise(NewGeneration::class);
+$app->addExercise(NewGenerationBack::class);
+$app->addExercise(NewGenerationTransfer::class);
+$app->addExercise(MakeConstantYourArrays::class);
 
 $art = <<<ART
       ______

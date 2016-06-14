@@ -15,7 +15,7 @@ use PhpSchool\PhpWorkshop\ExerciseDispatcher;
  * Class ArrayWeFilter
  * @package PhpSchool\CallableFunctions\Exercise
  */
-class ScalarTypeDeclarations extends AbstractExercise implements
+class NUllItsNull extends AbstractExercise implements
     ExerciseInterface,
     CliExercise,
     FunctionRequirementsExerciseCheck
@@ -25,7 +25,7 @@ class ScalarTypeDeclarations extends AbstractExercise implements
      */
     public function getName()
     {
-        return 'Scalar type declarations!';
+        return 'Null, it\'s null!';
     }
 
     /**
@@ -33,7 +33,7 @@ class ScalarTypeDeclarations extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'Scalar type declarations';
+        return 'Nuuull';
     }
 
     /**
@@ -41,7 +41,7 @@ class ScalarTypeDeclarations extends AbstractExercise implements
      */
     public function getArgs()
     {
-        return [1, 'A string'];
+        return [1, 2];
     }
 
     /**
