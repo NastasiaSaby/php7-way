@@ -33,7 +33,7 @@ class NewGenerationBack extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'Type your arguments';
+        return 'Generators have being improved with PHP7';
     }
 
     /**
@@ -41,7 +41,7 @@ class NewGenerationBack extends AbstractExercise implements
      */
     public function getArgs()
     {
-        return [1, 2, "a", "b", 1.5, 2.5];
+        return [1, 2];
     }
 
     /**

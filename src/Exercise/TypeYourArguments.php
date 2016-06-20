@@ -41,7 +41,7 @@ class TypeYourArguments extends AbstractExercise implements
      */
     public function getArgs()
     {
-        return [1, 2];
+        return [];
     }
 
     /**
@@ -57,7 +57,7 @@ class TypeYourArguments extends AbstractExercise implements
      */
     public function getRequiredFunctions()
     {
-        return [];
+        return ["noStrictFunction", "strictFunction"];
     }
 
     /**

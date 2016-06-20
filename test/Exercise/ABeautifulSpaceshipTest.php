@@ -14,7 +14,7 @@ use PHPUnit_Framework_TestCase;
  */
 class ABeautifulSpaceshipTest extends PHPUnit_Framework_TestCase
 {
-    public function testNullItsNullExercice()
+    public function testABeautifulSpaceshipExercice()
     {
         $e = new ABeautifulSpaceship();
         $this->assertEquals('A beautiful spaceship', $e->getName());

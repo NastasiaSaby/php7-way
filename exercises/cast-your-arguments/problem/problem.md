@@ -1,43 +1,26 @@
-Write a program that sorts only the even numbers from the arguments.
-You must write this program with the array_filter function.
+Write a program that adds the 2 first command-line arguments and writes the result.
+
+You must use 2 functions that take the 2 first command-line arguments as arguments.
+You must name your functions "noStrictFunction" and "strictFunction".
+
+The "noStrictFunction" must use the scalar type hint "int" whereas the "strictFunction" must not.
+
+Your output must be as following:
+firstResult
+secondResult
 
 ----------------------------------------------------------------------
 ## HINTS
 
-Faire 2 fonctions qui font un echo du 1er argument renvoye.
-Le 1er argument renvoye sera un number et le deuxieme un string.
+You can access command-line arguments via the global `$argv` array.
+Note that the first element of `$argv` is always the name of the executed script.
+To get the first argument given to the executed script, you must use $argv[1];
 
-On veut un renvoi ainsi :
-Fonction non stricte avec 1er argument : Number
-Fonction non stricte avec 2eme argument : String
-Fonction stricte avec 1er argument : Number
+You have to cast the string elements from `$argv` array to int elements.
+To do that, you can use (int).
 
-erreur
-
-3 fonctions :
-nonStrictFunction
-strictFunction
-errorFunction
-
-You can know if a number is an even number by divide it by 2 as following :
-```php
-if ($number %2 == 0) {
-    echo $number."is an even number".
-}
-```
-
-To filter elements from an array, use array_filter.
-For instance to filter multiple of 3 numbers :
-```php
-$function = function($number) {
-    return $number %3 == 0;
-};
-
-$numbers = [1, 2, 3, 4, 5, 6];
-array_filter($numbers, $function);
-```
-
-Documentation on the `array_filter` can be found by pointing your browser here:
-  [http://php.net/manual/en/function.array-filter.php]()
+Documentation on the `type casting` can be found by pointing your browser here:
+   
+  [http://php.net/manual/en/language.types.type-juggling.php]()
 
 ----------------------------------------------------------------------

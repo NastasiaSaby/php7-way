@@ -3,7 +3,7 @@
 
 namespace PhpSchool\Php7WayTest\Exercise;
 
-use PhpSchool\Php7Way\Exercise\DivideIt;
+use PhpSchool\Php7Way\Exercise\MakeConstantYourArrays;
 use PhpSchool\PhpWorkshop\Exercise\ExerciseType;
 use PhpSchool\PhpWorkshop\Solution\SolutionInterface;
 use PHPUnit_Framework_TestCase;
@@ -12,16 +12,16 @@ use PHPUnit_Framework_TestCase;
  * Class ScalarTypeDeclarationsTest
  * @package PhpSchool\LearnYouPhpTest\Exercise
  */
-class DivideItTest extends PHPUnit_Framework_TestCase
+class MakeConstantYourArraysTest extends PHPUnit_Framework_TestCase
 {
-    public function testDivideItExercice()
+    public function testMakeConstantYourArraysExercise()
     {
-        $e = new DivideIt();
-        $this->assertEquals('Divide it', $e->getName());
-        $this->assertEquals('About division', $e->getDescription());
+        $e = new MakeConstantYourArrays();
+        $this->assertEquals('Make constant your arrays', $e->getName());
+        $this->assertEquals('Exercice about constants', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
-        $this->assertEquals([1, 2, "a", "b", 1.5, 2.5], $e->getArgs());
+        $this->assertEquals([1, 2], $e->getArgs());
 
         $this->assertInstanceOf(SolutionInterface::class, $e->getSolution());
         $this->assertFileExists(realpath($e->getProblem()));
