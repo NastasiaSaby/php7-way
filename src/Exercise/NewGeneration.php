@@ -41,7 +41,7 @@ class NewGeneration extends AbstractExercise implements
      */
     public function getArgs()
     {
-        return [1, 2];
+        return ["firstArgument", "secondArgument", "thirdArgument"];
     }
 
     /**

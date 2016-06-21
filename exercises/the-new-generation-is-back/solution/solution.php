@@ -1,13 +1,23 @@
 <?php
-function gen_one_to_three() {
-    for ($i = 1; $i <= 3; $i++) {
-        // Notez que $i est préservé entre chaque production de valeur.
-        yield $i;
-    }
+
+function printArguments($argv)
+{
+    yield $argv[1];
+    yield $argv[2];
+    yield $argv[3];
+
+    return array_sum($argv);
 }
 
-$generator = gen_one_to_three();
-foreach ($generator as $value) {
-    echo "$value\n";
-}
-?>
+$generator = printArguments($argv);
+echo $generator->current();
+echo "\n";
+$generator->next();
+echo $generator->current();
+echo "\n";
+$generator->next();
+echo $generator->current();
+echo "\n";
+$generator->next();
+
+echo $generator->getReturn();

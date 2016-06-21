@@ -41,7 +41,7 @@ class NewGenerationBack extends AbstractExercise implements
      */
     public function getArgs()
     {
-        return [1, 2];
+        return [1, 2, 3, 4];
     }
 
     /**

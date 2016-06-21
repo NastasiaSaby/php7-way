@@ -15,7 +15,7 @@ use PhpSchool\PhpWorkshop\ExerciseDispatcher;
  * Class ArrayWeFilter
  * @package PhpSchool\CallableFunctions\Exercise
  */
-class NUllItsNull extends AbstractExercise implements
+class NUllItsNot extends AbstractExercise implements
     ExerciseInterface,
     CliExercise,
     FunctionRequirementsExerciseCheck
@@ -25,7 +25,7 @@ class NUllItsNull extends AbstractExercise implements
      */
     public function getName()
     {
-        return 'Null, it\'s null!';
+        return 'Null, it\'s not!';
     }
 
     /**
@@ -41,7 +41,7 @@ class NUllItsNull extends AbstractExercise implements
      */
     public function getArgs()
     {
-        return ["FirstArgument", "SecondArgument"];
+        return ["FirstArgument"];
     }
 
     /**

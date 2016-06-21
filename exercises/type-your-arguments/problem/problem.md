@@ -1,4 +1,4 @@
-Write a program that adds the numbers 1 and 2 and writes the result twice.
+Write a program that adds the numbers 1 and 2 and prints the result twice.
 
 You must use 2 functions that take the numbers as arguments.
 You must name your functions "noStrictFunction" and "strictFunction".
