@@ -33,7 +33,7 @@ class TypeYourOutput extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'Type your output';
+        return 'Use types to validate the output of a function';
     }
 
     /**

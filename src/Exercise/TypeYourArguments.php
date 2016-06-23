@@ -33,7 +33,7 @@ class TypeYourArguments extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'Type your arguments';
+        return 'Use scalar types with arguments';
     }
 
     /**

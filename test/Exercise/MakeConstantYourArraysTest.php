@@ -18,7 +18,7 @@ class MakeConstantYourArraysTest extends PHPUnit_Framework_TestCase
     {
         $e = new MakeConstantYourArrays();
         $this->assertEquals('Make constant your arrays', $e->getName());
-        $this->assertEquals('Exercice about constants', $e->getDescription());
+        $this->assertEquals('Define an array as constant', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
         $this->assertEquals([1, 2], $e->getArgs());

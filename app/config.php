@@ -7,7 +7,6 @@ use PhpSchool\Php7Way\Exercise\TypeYourArguments;
 use PhpSchool\Php7Way\Exercise\TypeYourOutput;
 use PhpSchool\Php7Way\Exercise\NullItsNull;
 use PhpSchool\Php7Way\Exercise\NullItsNot;
-use PhpSchool\Php7Way\Exercise\ABeautifulSpaceship;
 use PhpSchool\Php7Way\Exercise\DivideIt;
 use PhpSchool\Php7Way\Exercise\NewGeneration;
 use PhpSchool\Php7Way\Exercise\NewGenerationBack;
@@ -20,7 +19,6 @@ return [
     TypeYourOutput::class   => object(TypeYourOutput::class),
     NullItsNull::class   => object(NullItsNull::class),
     NullItsNot::class   => object(NullItsNot::class),
-    ABeautifulSpaceship::class   => object(ABeautifulSpaceship::class),
     DivideIt::class   => object(DivideIt::class),
     NewGeneration::class   => object(NewGeneration::class),
     NewGenerationBack::class   => object(NewGenerationBack::class),

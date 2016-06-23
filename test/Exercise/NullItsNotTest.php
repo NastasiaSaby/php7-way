@@ -18,7 +18,7 @@ class NullItsNotTest extends PHPUnit_Framework_TestCase
     {
         $e = new NullItsNot();
         $this->assertEquals('Null, it\'s not!', $e->getName());
-        $this->assertEquals('Nuuull', $e->getDescription());
+        $this->assertEquals('Use the null coalescing operator to check if the value exists', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
         $this->assertEquals(["FirstArgument"], $e->getArgs());

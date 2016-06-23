@@ -18,7 +18,7 @@ class NewGenerationBackTest extends PHPUnit_Framework_TestCase
     {
         $e = new NewGenerationBack();
         $this->assertEquals('The new generation is back', $e->getName());
-        $this->assertEquals('Generators have being improved with PHP7', $e->getDescription());
+        $this->assertEquals('Use generators returning a value', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
         $this->assertEquals([1, 2, 3, 4], $e->getArgs());

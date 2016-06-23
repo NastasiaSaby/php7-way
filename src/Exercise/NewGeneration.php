@@ -33,7 +33,7 @@ class NewGeneration extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'Exercice to introduce generators';
+        return 'Develop a generator and use it';
     }
 
     /**

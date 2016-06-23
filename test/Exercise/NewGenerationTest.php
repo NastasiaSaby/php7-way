@@ -20,7 +20,7 @@ class NewGenerationTest extends PHPUnit_Framework_TestCase
     {
         $e = new NewGeneration();
         $this->assertEquals('A new generation is coming', $e->getName());
-        $this->assertEquals('Exercice to introduce generators', $e->getDescription());
+        $this->assertEquals('Develop a generator and use it', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
         $this->assertEquals(["firstArgument", "secondArgument", "thirdArgument"], $e->getArgs());

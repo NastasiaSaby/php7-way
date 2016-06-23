@@ -33,7 +33,7 @@ class CastYourArguments extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'Cast your arguments';
+        return 'Cast variables before using them';
     }
 
     /**

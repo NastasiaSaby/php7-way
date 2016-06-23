@@ -33,7 +33,7 @@ class DivideIt extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'About division';
+        return 'Divide a number by another';
     }
 
     /**

@@ -18,7 +18,7 @@ class DivideItTest extends PHPUnit_Framework_TestCase
     {
         $e = new DivideIt();
         $this->assertEquals('Divide it', $e->getName());
-        $this->assertEquals('About division', $e->getDescription());
+        $this->assertEquals('Divide a number by another', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
         $this->assertEquals([1, 2, "a", "b", 1.5, 2.5], $e->getArgs());

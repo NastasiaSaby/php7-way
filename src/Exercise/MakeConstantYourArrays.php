@@ -33,7 +33,7 @@ class MakeConstantYourArrays extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'Exercice about constants';
+        return 'Define an array as constant';
     }
 
     /**

@@ -18,7 +18,7 @@ class TypeYourOutputTest extends PHPUnit_Framework_TestCase
     {
         $e = new TypeYourOutput();
         $this->assertEquals('Type your output!', $e->getName());
-        $this->assertEquals('Type your output', $e->getDescription());
+        $this->assertEquals('Use types to validate the output of a function', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
         $this->assertEquals([1, 2], $e->getArgs());

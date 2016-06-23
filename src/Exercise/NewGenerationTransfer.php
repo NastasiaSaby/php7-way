@@ -33,7 +33,7 @@ class NewGenerationTransfer extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'Exercice about yield from';
+        return 'Use generators delegating some parts of the algorithm';
     }
 
     /**

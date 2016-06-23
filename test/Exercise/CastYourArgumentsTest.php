@@ -20,7 +20,7 @@ class CastYourArgumentsTest extends PHPUnit_Framework_TestCase
     {
         $e = new CastYourArguments();
         $this->assertEquals('Cast your arguments!', $e->getName());
-        $this->assertEquals('Cast your arguments', $e->getDescription());
+        $this->assertEquals('Cast variables before using them', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
         $this->assertEquals([12, 8], $e->getArgs());

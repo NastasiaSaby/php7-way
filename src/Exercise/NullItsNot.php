@@ -33,7 +33,7 @@ class NUllItsNot extends AbstractExercise implements
      */
     public function getDescription()
     {
-        return 'Nuuull';
+        return 'Use the null coalescing operator to check if the value exists';
     }
 
     /**

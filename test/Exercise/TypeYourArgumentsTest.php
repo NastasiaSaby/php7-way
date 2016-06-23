@@ -22,7 +22,7 @@ class TypeYourArgumentsTest extends PHPUnit_Framework_TestCase
     {
         $e = new TypeYourArguments();
         $this->assertEquals('Type your arguments!', $e->getName());
-        $this->assertEquals('Type your arguments', $e->getDescription());
+        $this->assertEquals('Use scalar types with arguments', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
         $this->assertEquals([], $e->getArgs());
