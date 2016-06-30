@@ -2,7 +2,6 @@
 
 namespace PhpSchool\Php7Way\Exercise;
 
-use PhpSchool\PhpWorkshop\Check\FunctionRequirementsCheck;
 use PhpSchool\PhpWorkshop\Exercise\AbstractExercise;
 use PhpSchool\PhpWorkshop\Exercise\CliExercise;
 use PhpSchool\PhpWorkshop\Exercise\ExerciseInterface;
@@ -17,8 +16,7 @@ use PhpSchool\PhpWorkshop\ExerciseDispatcher;
  */
 class NewGenerationBack extends AbstractExercise implements
     ExerciseInterface,
-    CliExercise,
-    FunctionRequirementsExerciseCheck
+    CliExercise
 {
     /**
      * @return string
@@ -41,7 +39,7 @@ class NewGenerationBack extends AbstractExercise implements
      */
     public function getArgs()
     {
-        return [1, 2, 3, 4];
+        return [1, 2, 3];
     }
 
     /**
@@ -50,29 +48,5 @@ class NewGenerationBack extends AbstractExercise implements
     public function getType()
     {
         return ExerciseType::CLI();
-    }
-
-    /**
-     * @return string[]
-     */
-    public function getRequiredFunctions()
-    {
-        return [];
-    }
-
-    /**
-     * @return string[]
-     */
-    public function getBannedFunctions()
-    {
-        return [];
-    }
-
-    /**
-     * @param ExerciseDispatcher $dispatcher
-     */
-    public function configure(ExerciseDispatcher $dispatcher)
-    {
-        $dispatcher->requireCheck(FunctionRequirementsCheck::class);
     }
 }

@@ -19,5 +19,3 @@ $generator->next();
 echo $generator->current();
 echo "\n";
 $generator->next();
-
-echo $generator->getReturn();

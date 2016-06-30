@@ -5,7 +5,9 @@ namespace PhpSchool\Php7WayTest\Exercise;
 
 use PhpSchool\Php7Way\Exercise\TypeYourOutput;
 use PhpSchool\PhpWorkshop\Exercise\ExerciseType;
+use PhpSchool\PhpWorkshop\Check\FunctionRequirementsCheck;
 use PhpSchool\PhpWorkshop\Solution\SolutionInterface;
+use PhpSchool\PhpWorkshop\ExerciseDispatcher;
 use PHPUnit_Framework_TestCase;
 
 /**
@@ -26,5 +28,25 @@ class TypeYourOutputTest extends PHPUnit_Framework_TestCase
         $this->assertInstanceOf(SolutionInterface::class, $e->getSolution());
         $this->assertFileExists(realpath($e->getProblem()));
         $this->assertNull($e->tearDown());
+    }
+
+    public function testFunctionRequirements()
+    {
+        $e = new TypeYourOutput();
+        $this->assertEquals(['noStrictFunction', 'strictFunction'], $e->getRequiredFunctions());
+        $this->assertEquals([], $e->getBannedFunctions());
+    }
+
+    public function testConfigure()
+    {
+        $dispatcher = $this->getMockBuilder(ExerciseDispatcher::class)
+            ->disableOriginalConstructor()
+            ->getMock();
+        $dispatcher
+            ->expects($this->once())
+            ->method('requireCheck')
+            ->with(FunctionRequirementsCheck::class);
+        $e = new TypeYourOutput();
+        $e->configure($dispatcher);
     }
 }

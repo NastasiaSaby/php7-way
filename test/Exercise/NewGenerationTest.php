@@ -29,4 +29,23 @@ class NewGenerationTest extends PHPUnit_Framework_TestCase
         $this->assertFileExists(realpath($e->getProblem()));
         $this->assertNull($e->tearDown());
     }
+
+    public function testFunctionRequirements()
+    {
+        $e = new NewGeneration();
+        $this->assertEquals(['strtoupper'], $e->getRequiredFunctions());
+        $this->assertEquals([], $e->getBannedFunctions());
+    }
+    public function testConfigure()
+    {
+        $dispatcher = $this->getMockBuilder(ExerciseDispatcher::class)
+            ->disableOriginalConstructor()
+            ->getMock();
+        $dispatcher
+            ->expects($this->once())
+            ->method('requireCheck')
+            ->with(FunctionRequirementsCheck::class);
+        $e = new NewGeneration();
+        $e->configure($dispatcher);
+    }
 }

@@ -1,3 +1,3 @@
 <?php
 
-echo $argv[2] ?? $argv[1];
+echo  $argv[2] ?? $argv[1];

@@ -1,5 +1,5 @@
-Write a program that divides a number by another and prints the result.
-The divident is the first command-line argument and the divisor the second.
+Write a program that divides a number by another and prints the result as an integer.
+The dividend is the first command-line argument and the divisor the second.
 
 You must use the `intdiv` function.
 

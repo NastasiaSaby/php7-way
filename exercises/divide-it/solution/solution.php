@@ -1,3 +1,3 @@
 <?php
 
-echo intdiv($argv[1], $argv[2]);
+echo intdiv($argv[2], $argv[1]);

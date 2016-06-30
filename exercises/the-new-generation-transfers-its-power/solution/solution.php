@@ -1,16 +1,14 @@
 <?php
-
-function add($firstArgument, $secondArgument)
+function upperCase($argument)
 {
-    yield $firstArgument + $secondArgument;
+    yield strtoupper($argument);
 }
 
 function printArguments($argv)
 {
-    yield from add($argv[1], $argv[2]);
-    yield from add($argv[3], $argv[4]);
-
-    return array_sum($argv);
+    yield from upperCase($argv[1]);
+    yield from upperCase($argv[2]);
+    yield from upperCase($argv[3]);
 }
 
 $generator = printArguments($argv);
@@ -21,7 +19,3 @@ echo $generator->current();
 echo "\n";
 $generator->next();
 echo $generator->current();
-echo "\n";
-$generator->next();
-
-echo $generator->getReturn();

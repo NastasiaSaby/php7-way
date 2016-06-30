@@ -21,7 +21,6 @@ switch (true) {
 
 use PhpSchool\PhpWorkshop\Application;
 use PhpSchool\Php7Way\Exercise\TypeYourArguments;
-use PhpSchool\Php7Way\Exercise\CastYourArguments;
 use PhpSchool\Php7Way\Exercise\TypeYourOutput;
 use PhpSchool\Php7Way\Exercise\NullItsNull;
 use PhpSchool\Php7Way\Exercise\NullItsNot;
@@ -34,7 +33,6 @@ use PhpSchool\Php7Way\Exercise\MakeConstantYourArrays;
 $app = new Application('PHP7 way', __DIR__ . '/config.php');
 
 $app->addExercise(TypeYourArguments::class);
-$app->addExercise(CastYourArguments::class);
 $app->addExercise(TypeYourOutput::class);
 $app->addExercise(NullItsNull::class);
 $app->addExercise(NullItsNot::class);

@@ -41,7 +41,7 @@ class NewGenerationTransfer extends AbstractExercise implements
      */
     public function getArgs()
     {
-        return [1, 2];
+        return ["firstArgument", "secondArgument", "thirdArgument"];
     }
 
     /**
@@ -57,7 +57,7 @@ class NewGenerationTransfer extends AbstractExercise implements
      */
     public function getRequiredFunctions()
     {
-        return [];
+        return ["strtoupper"];
     }
 
     /**

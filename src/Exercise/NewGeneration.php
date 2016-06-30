@@ -57,7 +57,7 @@ class NewGeneration extends AbstractExercise implements
      */
     public function getRequiredFunctions()
     {
-        return [];
+        return ["strtoupper"];
     }
 
     /**

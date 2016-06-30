@@ -57,7 +57,7 @@ class TypeYourOutput extends AbstractExercise implements
      */
     public function getRequiredFunctions()
     {
-        return [];
+        return ["noStrictFunction", "strictFunction"];
     }
 
     /**

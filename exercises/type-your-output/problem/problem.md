@@ -1,13 +1,13 @@
-Write a program that adds the 2 first command-line arguments and prints the result.
+Write a program that adds the 2 first command-line arguments and prints the result twice.
 
-You must use 2 functions that take the 2 first command-line arguments as arguments.
-You must name your functions "noStrictFunction" and "strictFunction".
+To print the result twice, you must use 2 functions that take the 2 first command-line arguments as arguments.
+You must name your functions `noStrictFunction` and `strictFunction`.
 
-The "noStrictFunction" must use the return type hint "int" whereas the "strictFunction" must not.
+The `noStrictFunction` must use the return type hint `int` whereas the `strictFunction` must not.
 
 Your output must be as following:
-firstResult
-secondResult
+`firstResult`
+`secondResult`
 
 ----------------------------------------------------------------------
 ## HINTS
@@ -15,10 +15,11 @@ secondResult
 You can use return type declarations as following :
 
 ```
-function speack() : string
+function speak() : string
 {
    return "Hello world";
 }
+speak();
 ```
 
 Documentation on the `return type declarations` can be found by pointing your browser here:

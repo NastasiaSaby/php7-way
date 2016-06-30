@@ -10,6 +10,5 @@ function strictFunction(int $number1, int $number2) : int
     return $number1+$number2;
 }
 
-echo noStrictFunction((int)$argv[1], (int)$argv[2]);
-echo "\n";
-echo strictFunction((int)$argv[1], (int)$argv[2]);
+echo noStrictFunction(1, 2);
+echo strictFunction(1, 2);

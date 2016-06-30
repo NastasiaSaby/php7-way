@@ -21,7 +21,7 @@ class NewGenerationBackTest extends PHPUnit_Framework_TestCase
         $this->assertEquals('Use generators returning a value', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
-        $this->assertEquals([1, 2, 3, 4], $e->getArgs());
+        $this->assertEquals([1, 2, 3], $e->getArgs());
 
         $this->assertInstanceOf(SolutionInterface::class, $e->getSolution());
         $this->assertFileExists(realpath($e->getProblem()));

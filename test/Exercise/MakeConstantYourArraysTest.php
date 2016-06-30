@@ -21,7 +21,7 @@ class MakeConstantYourArraysTest extends PHPUnit_Framework_TestCase
         $this->assertEquals('Define an array as constant', $e->getDescription());
         $this->assertEquals(ExerciseType::CLI, $e->getType());
 
-        $this->assertEquals([1, 2], $e->getArgs());
+        $this->assertEquals(['A', 'B', 'C'], $e->getArgs());
 
         $this->assertInstanceOf(SolutionInterface::class, $e->getSolution());
         $this->assertFileExists(realpath($e->getProblem()));

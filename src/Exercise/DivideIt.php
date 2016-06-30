@@ -41,7 +41,7 @@ class DivideIt extends AbstractExercise implements
      */
     public function getArgs()
     {
-        return [1, 2, "a", "b", 1.5, 2.5];
+        return [4, 3];
     }
 
     /**
@@ -57,7 +57,7 @@ class DivideIt extends AbstractExercise implements
      */
     public function getRequiredFunctions()
     {
-        return [];
+        return ["intdiv"];
     }
 
     /**
