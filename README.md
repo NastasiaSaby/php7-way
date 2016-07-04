@@ -1,22 +1,32 @@
-<h1 align="center">Workshop Starter Kit</h1>
-
-<p align="center">If you want to build your own workshop, this repository and it't tools will help you get going</p>
+<h1 align="center">PHP7 way</h1>
 
 <p align="center">
-  <a href="https://phpschool-team.slack.com/messages">
-      <img src="https://phpschool.herokuapp.com/badge.svg">
-  </a>
+A PHP School workshop about some new features in PHP7.
 </p>
+
+<p align="center">
+<a href="https://travis-ci.org/NastasiaSaby/php7-way">
+    <img src="https://img.shields.io/travis/NastasiaSaby/php7-way/master.svg?style=flat-square">
+</a>
+<a href="https://codecov.io/github/NastasiaSaby/callable-functions">
+    <img src="https://img.shields.io/codecov/c/github/NastasiaSaby/callable-functions.svg?style=flat-square">
+</a>
+<a href="https://scrutinizer-ci.com/g/NastasiaSaby/php7-way/">
+    <img src="https://img.shields.io/scrutinizer/g/NastasiaSaby/php7-way.svg?style=flat-square">
+</a>
+</p>
+
 ----
+<p align="center">
+<img width="500" alt="Learn You PHP Workshop" src="http://mes-experiences-geek.fr/wp-content/uploads/2016/05/learn.png">
+</p>
 
-## Getting Started
 
-```shell
-composer create-project php-school/workshop-starter-kit your-workshop-name
-```
+## Installation
 
-That's it! You will be prompted for some information along the way, this will be used to setup the project details in `composer.json`, setup autoloading of your classes and a few other things. A command will be dispayed towards the end of the process which will immediately allow you to run your workshop!
+1. Install [PHP](http://php.net/downloads.php)
+2. Install [Composer](https://getcomposer.org/download/)
+3. Run `composer global require nastasia/php7-way`
+4. Run `php7-way`
 
-For detailed documentation on how to actually build execrises and extend the application, check the docs page on our site [www.phpschool.io/docs](https://www.phpschool.io/docs).
-
-Finally, drop in the [slack channel](https://phpschool-team.slack.com/messages) if you have further questions. Also send us a PR [here](https://github.com/php-school/phpschool.io) or just drop us a message if you want your workshop featured on www.phpschool.io! 
+**php7way** will run through a series of PHP workshops about some new features in PHP7.
