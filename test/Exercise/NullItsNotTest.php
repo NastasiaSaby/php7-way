@@ -9,8 +9,8 @@ use PhpSchool\PhpWorkshop\Solution\SolutionInterface;
 use PHPUnit_Framework_TestCase;
 
 /**
- * Class ScalarTypeDeclarationsTest
- * @package PhpSchool\LearnYouPhpTest\Exercise
+ * Class NullItsNotTest
+ * @package PhpSchool\Php7WayTest\Exercise
  */
 class NullItsNotTest extends PHPUnit_Framework_TestCase
 {

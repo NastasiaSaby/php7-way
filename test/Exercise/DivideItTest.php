@@ -11,8 +11,8 @@ use PhpSchool\PhpWorkshop\ExerciseDispatcher;
 use PhpSchool\PhpWorkshop\Check\FunctionRequirementsCheck;
 
 /**
- * Class ScalarTypeDeclarationsTest
- * @package PhpSchool\LearnYouPhpTest\Exercise
+ * Class DivideItTest
+ * @package PhpSchool\Php7WayTest\Exercise
  */
 class DivideItTest extends PHPUnit_Framework_TestCase
 {

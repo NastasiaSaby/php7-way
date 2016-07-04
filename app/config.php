@@ -2,7 +2,6 @@
 
 use function DI\factory;
 use function DI\object;
-use PhpSchool\Php7Way\Exercise\CastYourArguments;
 use PhpSchool\Php7Way\Exercise\TypeYourArguments;
 use PhpSchool\Php7Way\Exercise\TypeYourOutput;
 use PhpSchool\Php7Way\Exercise\NullItsNull;
@@ -15,7 +14,6 @@ use PhpSchool\Php7Way\Exercise\MakeConstantYourArrays;
 
 return [
     TypeYourArguments::class   => object(TypeYourArguments::class),
-    CastYourArguments::class   => object(CastYourArguments::class),
     TypeYourOutput::class   => object(TypeYourOutput::class),
     NullItsNull::class   => object(NullItsNull::class),
     NullItsNot::class   => object(NullItsNot::class),

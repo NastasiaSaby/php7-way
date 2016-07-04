@@ -7,14 +7,12 @@ use PhpSchool\Php7Way\Exercise\TypeYourArguments;
 use PhpSchool\PhpWorkshop\Exercise\ExerciseType;
 use PhpSchool\PhpWorkshop\Check\FunctionRequirementsCheck;
 use PhpSchool\PhpWorkshop\Solution\SolutionInterface;
-use PhpSchool\PhpWorkshop\ExerciseCheck\FunctionRequirementsExerciseCheck;
-use PhpSchool\PhpWorkshop\ExerciseCheck\StdOutExerciseCheck;
 use PhpSchool\PhpWorkshop\ExerciseDispatcher;
 use PHPUnit_Framework_TestCase;
 
 /**
- * Class ScalarTypeDeclarationsTest
- * @package PhpSchool\LearnYouPhpTest\Exercise
+ * Class TypeYourArgumentsTest
+ * @package PhpSchool\Php7WayTest\Exercise
  */
 class TypeYourArgumentsTest extends PHPUnit_Framework_TestCase
 {

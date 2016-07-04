@@ -8,12 +8,11 @@ use PhpSchool\PhpWorkshop\Exercise\CliExercise;
 use PhpSchool\PhpWorkshop\Exercise\ExerciseInterface;
 use PhpSchool\PhpWorkshop\Exercise\ExerciseType;
 use PhpSchool\PhpWorkshop\ExerciseCheck\FunctionRequirementsExerciseCheck;
-use PhpSchool\PhpWorkshop\ExerciseCheck\StdOutExerciseCheck;
 use PhpSchool\PhpWorkshop\ExerciseDispatcher;
 
 /**
- * Class ArrayWeFilter
- * @package PhpSchool\CallableFunctions\Exercise
+ * Class DivideIt
+ * @package PhpSchool\Php7Way\Exercise
  */
 class DivideIt extends AbstractExercise implements
     ExerciseInterface,

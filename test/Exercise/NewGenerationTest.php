@@ -11,8 +11,8 @@ use PhpSchool\PhpWorkshop\ExerciseDispatcher;
 use PHPUnit_Framework_TestCase;
 
 /**
- * Class ScalarTypeDeclarationsTest
- * @package PhpSchool\LearnYouPhpTest\Exercise
+ * Class NewGenerationTest
+ * @package PhpSchool\Php7WayTest\Exercise
  */
 class NewGenerationTest extends PHPUnit_Framework_TestCase
 {

@@ -6,13 +6,12 @@ use PhpSchool\PhpWorkshop\Exercise\AbstractExercise;
 use PhpSchool\PhpWorkshop\Exercise\CliExercise;
 use PhpSchool\PhpWorkshop\Exercise\ExerciseInterface;
 use PhpSchool\PhpWorkshop\Exercise\ExerciseType;
-use PhpSchool\PhpWorkshop\ExerciseCheck\StdOutExerciseCheck;
 
 /**
- * Class ArrayWeFilter
- * @package PhpSchool\CallableFunctions\Exercise
+ * Class NullITsNot
+ * @package PhpSchool\Php7Way\Exercise
  */
-class NUllItsNot extends AbstractExercise implements
+class NullItsNot extends AbstractExercise implements
     ExerciseInterface,
     CliExercise
 {
