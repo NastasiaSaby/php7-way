@@ -1,6 +1,7 @@
 Write a program that prints the first command-line argument if the second is null.
+As a result, if the second argument is not null, it will write it.
 
-You must use the null coalescing operator.
+You must use the null coalescing operator `??`.
 
 ----------------------------------------------------------------------
 ## HINTS

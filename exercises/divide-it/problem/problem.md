@@ -6,6 +6,11 @@ You must use the `intdiv` function.
 ----------------------------------------------------------------------
 ## HINTS
 
+You can use the `intdiv` function as following:
+```php
+intdiv(10,3); //3
+```
+
 Documentation on `intdiv` can be found by pointing your browser here:
   [http://php.net/manual/en/function.intdiv.php]()
 

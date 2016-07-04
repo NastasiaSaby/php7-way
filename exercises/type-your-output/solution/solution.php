@@ -11,4 +11,5 @@ function strictFunction(int $number1, int $number2) : int
 }
 
 echo noStrictFunction(1, 2);
+echo "\n";
 echo strictFunction(1, 2);
