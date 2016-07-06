@@ -1,8 +1,8 @@
 Write a program that prints the three command-line arguments each on a new line.
-You must use the keyword `yield` for that.
+You must use the `yield` keyword for that.
 
-Then, add the three command-line arguments and prints the final result on a new line.
-You must use the keyword `return` for that.
+Then, add the three command-line arguments and print the final result on a new line.
+You must use the `return` keyword for that.
 
 You must use the generators and the `array_sum` function.
 

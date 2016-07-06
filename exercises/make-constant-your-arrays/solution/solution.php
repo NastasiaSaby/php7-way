@@ -1,8 +1,5 @@
 <?php
-define('ANIMALS', [
-    'dog',
-    'cat',
-    'bird'
-]);
 
-echo ANIMALS[1];
+define('COMMAND_LINE_ARGUMENTS', $argv);
+
+echo COMMAND_LINE_ARGUMENTS[3];

@@ -5,7 +5,7 @@ You must use the generators and the `strtoupper` function.
 ----------------------------------------------------------------------
 ## HINTS
 
-To initialize a generator, you can write a function with the keyword `yield` as following :
+To initialize a generator, you can write a function with the `yield` keyword as following :
 ```php
 function generator ()
 {
