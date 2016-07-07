@@ -1,11 +1,13 @@
 {
     "name": "nastasia/php7-way",
     "description": "To play with PHP7",
+    "homepage": "https://www.phpschool.io",
+    "type": "php-school-workshop",
     "license": "MIT",
     "authors": [
         {
-            "name": "Aydin Hassan",
-            "email": "aydin@hotmail.co.uk"
+            "name": "Nastasia Saby",
+            "email": "nastasia.saby@gmail.com"
         }
     ],
     "require": {
