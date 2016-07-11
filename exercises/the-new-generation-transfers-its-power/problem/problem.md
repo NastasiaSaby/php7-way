@@ -2,12 +2,12 @@ Write a program that prints the three command-line arguments in upper case, each
 
 You must use the generators and the `strtoupper` function.
 
-You must use the `yield from` with a generator that uppercase the argument received. 
+You must use the `yield from` keyword with a generator that uppercase the argument received. 
 
 ----------------------------------------------------------------------
 ## HINTS
 
-You can use the `yield from` as following:
+You can use the `yield from` keyword as following:
 ```php
 function generatorFrom()
 {
@@ -20,7 +20,7 @@ function generator ()
 }
 ```
 
-To print the result of the first `yield from`, you can do as following:
+To print the result of the first `yield from` keyword, you can do as following:
 ```php
 $generator = generator();
 echo $generator->current(); //1
