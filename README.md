@@ -25,8 +25,8 @@ A PHP School workshop about some new features in PHP7.
 ## Installation
 
 1. Install [PHP](http://php.net/downloads.php)
-2. Install [Composer](https://getcomposer.org/download/)
-3. Run `composer global require nastasia/php7-way`
+2. Install [workshop-manager](https://www.phpschool.io/)
+3. Run `workshop-manager install php7way`
 4. Run `php7way`
 
 **php7way** will run through a series of PHP workshops about some new features in PHP7.
