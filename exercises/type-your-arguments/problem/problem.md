@@ -3,7 +3,7 @@ Write a program that adds the numbers 1 and 2 and prints the result twice.
 To print the result twice, you must use 2 functions that take the numbers as arguments.
 You must name your functions `noStrictFunction` and `strictFunction`.
 
-The `noStrictFunction` must use the scalar type hint `int` for the 2 arguments whereas the `strictFunction` must not.
+The `strictFunction` must use the scalar type hint `int` for the 2 arguments whereas the `noStrictFunction` must not.
 
 Your output must be as following:
 `firstResult`
